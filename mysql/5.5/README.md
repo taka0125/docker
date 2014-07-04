@@ -5,7 +5,7 @@
 #### run
 
 ```
-docker run -p 10022:22 -it --rm taka0125/mysql:5.5
+docker run -p 10022:22 -p 13306:3306 -it --rm taka0125/mysql:5.5
 ```
 
 #### build
